@@ -22,6 +22,7 @@ public class MathServer {
             Thread t = new Thread(new ClientHandler(clientSocket));
             t.start();
         }
+        serverSocket.close();
     }
 
     // Call this from ClientHandler to write server logs
