@@ -59,6 +59,7 @@ ACK:JOINED:Alice
 
 CALC:&lt;expression&gt;
 
+---
 **Examples:**
 
 - CALC:5 + 3
