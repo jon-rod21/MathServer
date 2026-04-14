@@ -61,9 +61,9 @@ CALC:&lt;expression&gt;
 
 **Examples:**
 
-CALC:5 + 3
-CALC:10 / 2
-CALC:7 * 8
+- CALC:5 + 3
+- CALC:10 / 2
+- CALC:7 * 8
 
 **Description:**
 - Requests a mathematical calculation
