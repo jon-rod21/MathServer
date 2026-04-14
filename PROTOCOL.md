@@ -129,7 +129,7 @@ CALC:&lt;expression&gt;
 
 5. Server responds with:
 
-RESULT:&lt;expression=answer&gt;
+RESULT:&lt;expression&gt;=&lt;answer&gt;
 
 or:
 
