@@ -77,8 +77,8 @@ CALC:&lt;expression&gt;
 RESULT:&lt;expression=answer&gt;
 **Examples:**
 
-RESULT:5 + 3=8.0
-RESULT:10 / 2=5.0
+- RESULT:5 + 3=8.0
+- RESULT:10 / 2=5.0
 
 **Description:**
 - Returns the computed result of the expression
