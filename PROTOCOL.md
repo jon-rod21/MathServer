@@ -59,7 +59,6 @@ ACK:JOINED:Alice
 
 CALC:&lt;expression&gt;
 
----
 **Examples:**
 
 - CALC:5 + 3
@@ -77,7 +76,6 @@ CALC:&lt;expression&gt;
 
 RESULT:&lt;expression&gt;=&lt;answer&gt;
 
----
 **Examples:**
 
 - RESULT:5 + 3=8.0
