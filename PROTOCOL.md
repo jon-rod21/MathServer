@@ -93,9 +93,9 @@ ERROR:&lt;reason&gt;
 
 **Examples:**
 
-ERROR:Division by zero
-ERROR:Invalid expression
-ERROR:Unknown command
+- ERROR:Division by zero
+- ERROR:Invalid expression
+- ERROR:Unknown command
 
 **Description:**
 - Indicates invalid input or failure
