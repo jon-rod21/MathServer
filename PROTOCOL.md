@@ -75,7 +75,9 @@ CALC:&lt;expression&gt;
 ### RESULT (Server → Client)
 **Format:**
 
-RESULT:&lt;expression&gt;=&lt;answer&gt;\
+RESULT:&lt;expression&gt;=&lt;answer&gt;
+
+---
 **Examples:**
 
 - RESULT:5 + 3=8.0
