@@ -41,8 +41,7 @@ JOIN:Alice
 ### ACK (Server → Client)
 **Format:**
 
-ACK:JOINED:<clientName>
-
+ACK:JOINED:&lt;client name&gt;
 
 **Example:**
 
@@ -58,15 +57,13 @@ ACK:JOINED:Alice
 ### CALC (Client → Server)
 **Format:**
 
-CALC:<expression>
-
+CALC:&lt;expression&gt;
 
 **Examples:**
 
 CALC:5 + 3
 CALC:10 / 2
 CALC:7 * 8
-
 
 **Description:**
 - Requests a mathematical calculation
@@ -77,14 +74,11 @@ CALC:7 * 8
 ### RESULT (Server → Client)
 **Format:**
 
-RESULT:<expression>=<answer>
-
-
+RESULT:&lt;expression=answer&gt;
 **Examples:**
 
 RESULT:5 + 3=8.0
 RESULT:10 / 2=5.0
-
 
 **Description:**
 - Returns the computed result of the expression
@@ -94,15 +88,13 @@ RESULT:10 / 2=5.0
 ### ERROR (Server → Client)
 **Format:**
 
-ERROR:<reason>
-
+ERROR:&lt;reason&gt;
 
 **Examples:**
 
 ERROR:Division by zero
 ERROR:Invalid expression
 ERROR:Unknown command
-
 
 **Description:**
 - Indicates invalid input or failure
@@ -114,7 +106,6 @@ ERROR:Unknown command
 
 QUIT
 
-
 **Description:**
 - Gracefully disconnects the client from the server
 
@@ -125,23 +116,23 @@ QUIT
 1. Client connects to the server using TCP
 2. Client sends:
 
-JOIN:<clientName>
+JOIN:&lt;clientName&gt;
 
 3. Server responds:
 
-ACK:JOINED:<clientName>
+ACK:JOINED:&lt;clientName&gt;
 
 4. Client sends one or more:
 
-CALC:<expression>
+CALC:&lt;expression&gt;
 
 5. Server responds with:
 
-RESULT:<expression>=<answer>
+RESULT:&lt;expression=answer&gt;
 
 or:
 
-ERROR:<reason>
+ERROR:&lt;reason&gt;
 
 6. Client sends:
 
@@ -172,6 +163,5 @@ ERROR:Division by zero
 - **Unknown command:**
 
 ERROR:Unknown command
-
 
 ---
