@@ -26,7 +26,7 @@ All messages are:
 ### JOIN (Client → Server)
 **Format:**
 
-JOIN:<clientname>
+JOIN:&lt;client name&gt;
 
 **Example:**
 
