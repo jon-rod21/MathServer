@@ -28,11 +28,9 @@ All messages are:
 
 JOIN:<clientName>
 
-
 **Example:**
 
 JOIN:Alice
-
 
 **Description:**
 - Sent immediately after connecting
