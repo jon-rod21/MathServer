@@ -5,6 +5,7 @@ JAVA  = java
 all: compile
 
 compile:
+	$(JAVAC) RecursiveDescentParser.java
 	$(JAVAC) MathEngine.java
 	$(JAVAC) MathServer.java ClientHandler.java
 	$(JAVAC) MathClient.java
