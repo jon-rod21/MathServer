@@ -10,6 +10,7 @@ public class MathClient {
         String host;
 
         try {
+            Scanner sc = new Scanner(System.in);
             // Get client name
             if (args.length > 0) {
                 host = args[0];
