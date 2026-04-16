@@ -60,7 +60,7 @@ public class MathClient {
 
             while (true)
             {
-                System.out.println("[" + clientName + "] > ");
+                System.out.print("[" + clientName + "] > ");
                 String input = sc.nextLine().trim();
                 if (input.matches("quit"))
                 {
@@ -107,6 +107,7 @@ public class MathClient {
 //            out.println("QUIT");
 
             socket.close();
+            sc.close();
             System.out.println("[CLIENT] Disconnected.");
 
         } catch (Exception e) {
