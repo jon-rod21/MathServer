@@ -3,24 +3,33 @@ import java.net.*;
 import java.util.*;
 
 public class MathClient {
-    private static final String HOST = "127.0.0.1";
     private static final int PORT = 9999;
 
     public static void main(String[] args) {
         String clientName;
+        String host;
 
         try {
             // Get client name
             if (args.length > 0) {
-                clientName = args[0];
+                host = args[0];
             } else {
-                Scanner sc = new Scanner(System.in);
+                System.out.print("Enter server IP address: ");
+                host = sc.nextLine().trim();
+            }
+
+            if (args.length > 1)
+            {
+                clientName = args[1];
+            }
+            else
+            {
                 System.out.print("Enter your name: ");
                 clientName = sc.nextLine().trim();
             }
 
             // Connect to the server
-            Socket socket = new Socket(HOST, PORT);
+            Socket socket = new Socket(host, PORT);
             BufferedReader in = new BufferedReader(
                     new InputStreamReader(socket.getInputStream()));
             PrintWriter out = new PrintWriter(
