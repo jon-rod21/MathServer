@@ -1,1 +1,27 @@
 [2026-04-15 19:30:20] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-15 19:35:10] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-15 19:37:51] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-15 19:38:19] CONNECTED    | Client: jon          | IP: 11.37.6.167:57640
+[2026-04-15 19:38:19] STATUS       | Client: SERVER       | Active clients (1): jon
+[2026-04-15 19:38:22] REQUEST      | Client: jon          | Expr: 50 - 13
+[2026-04-15 19:38:22] RESPONSE     | Client: jon          | 50 - 13 = 37
+[2026-04-15 19:38:25] REQUEST      | Client: jon          | Expr: 2 + 2
+[2026-04-15 19:38:25] RESPONSE     | Client: jon          | 2 + 2 = 4
+[2026-04-15 19:38:26] REQUEST      | Client: jon          | Expr: 50 - 13
+[2026-04-15 19:38:26] RESPONSE     | Client: jon          | 50 - 13 = 37
+[2026-04-15 19:38:26] QUIT_RECEIVED | Client: jon          | Client requested disconnect
+[2026-04-15 19:38:26] DISCONNECTED | Client: jon          | Duration: 7s
+[2026-04-15 19:38:26] STATUS       | Client: SERVER       | No clients currently connected
+[2026-04-15 19:42:07] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-15 19:42:29] CONNECTED    | Client: jon          | IP: 11.37.6.167:48156
+[2026-04-15 19:42:29] STATUS       | Client: SERVER       | Active clients (1): jon
+[2026-04-15 19:42:31] REQUEST      | Client: jon          | Expr: 50 - 13
+[2026-04-15 19:42:31] RESPONSE     | Client: jon          | 50 - 13 = 37
+[2026-04-15 19:42:33] REQUEST      | Client: jon          | Expr: 2 + 2
+[2026-04-15 19:42:33] RESPONSE     | Client: jon          | 2 + 2 = 4
+[2026-04-15 19:42:37] REQUEST      | Client: jon          | Expr: 7 * 8
+[2026-04-15 19:42:37] RESPONSE     | Client: jon          | 7 * 8 = 56
+[2026-04-15 19:42:37] QUIT_RECEIVED | Client: jon          | Client requested disconnect
+[2026-04-15 19:42:37] DISCONNECTED | Client: jon          | Duration: 8s
+[2026-04-15 19:42:37] STATUS       | Client: SERVER       | No clients currently connected
+[2026-04-16 16:16:37] SERVER_START | Client: N/A          | Listening on port 9999
