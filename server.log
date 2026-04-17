@@ -25,3 +25,25 @@
 [2026-04-15 19:42:37] DISCONNECTED | Client: jon          | Duration: 8s
 [2026-04-15 19:42:37] STATUS       | Client: SERVER       | No clients currently connected
 [2026-04-16 16:16:37] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-16 22:15:01] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-16 22:15:36] CONNECTED    | Client: laptop       | IP: 11.37.6.232:37396
+[2026-04-16 22:15:36] STATUS       | Client: SERVER       | Active clients (1): laptop
+[2026-04-16 22:15:55] CONNECTED    | Client: desktop      | IP: 11.37.5.39:42346
+[2026-04-16 22:15:55] STATUS       | Client: SERVER       | Active clients (2): desktop, laptop
+[2026-04-16 22:16:44] QUIT_RECEIVED | Client: laptop       | Client requested disconnect
+[2026-04-16 22:16:44] DISCONNECTED | Client: laptop       | Duration: 68s
+[2026-04-16 22:16:44] STATUS       | Client: SERVER       | Active clients (1): desktop
+[2026-04-16 22:16:51] REQUEST      | Client: desktop      | Expr: hi there
+[2026-04-16 22:16:51] ERROR        | Client: desktop      | Bad expr: hi there => ERROR:Invalid expression
+[2026-04-16 22:23:13] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-16 22:23:45] CONNECTED    | Client: jonman       | IP: 11.37.6.232:45786
+[2026-04-16 22:23:45] STATUS       | Client: SERVER       | Active clients (1): jonman
+[2026-04-16 22:23:46] REQUEST      | Client: jonman       | Expr: 10 + 25
+[2026-04-16 22:23:46] RESPONSE     | Client: jonman       | 10 + 25 = 35
+[2026-04-16 22:23:47] REQUEST      | Client: jonman       | Expr: 10 + 25
+[2026-04-16 22:23:47] RESPONSE     | Client: jonman       | 10 + 25 = 35
+[2026-04-16 22:23:49] REQUEST      | Client: jonman       | Expr: 7 * 8
+[2026-04-16 22:23:49] RESPONSE     | Client: jonman       | 7 * 8 = 56
+[2026-04-16 22:23:49] QUIT_RECEIVED | Client: jonman       | Client requested disconnect
+[2026-04-16 22:23:49] DISCONNECTED | Client: jonman       | Duration: 4s
+[2026-04-16 22:23:49] STATUS       | Client: SERVER       | No clients currently connected

@@ -4,6 +4,7 @@ public class MathEngine {
     {
         try
         {
+            // Instantiate a parse object and send the user request to it
             RecursiveDescentParser parser = new RecursiveDescentParser(expression.trim());
             double result = parser.parseExpression();
             if (parser.hasMore())
