@@ -47,3 +47,50 @@
 [2026-04-16 22:23:49] QUIT_RECEIVED | Client: jonman       | Client requested disconnect
 [2026-04-16 22:23:49] DISCONNECTED | Client: jonman       | Duration: 4s
 [2026-04-16 22:23:49] STATUS       | Client: SERVER       | No clients currently connected
+[2026-04-16 22:38:09] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-16 22:38:40] CONNECTED    | Client: jonman       | IP: 11.37.6.232:49866
+[2026-04-16 22:38:40] STATUS       | Client: SERVER       | Active clients (1): jonman
+[2026-04-16 22:38:41] REQUEST      | Client: jonman       | Expr: 50 - 13
+[2026-04-16 22:38:41] RESPONSE     | Client: jonman       | 50 - 13 = 37
+[2026-04-16 22:38:43] REQUEST      | Client: jonman       | Expr: 7 * 8
+[2026-04-16 22:38:43] RESPONSE     | Client: jonman       | 7 * 8 = 56
+[2026-04-16 22:38:45] REQUEST      | Client: jonman       | Expr: 10 + 25
+[2026-04-16 22:38:45] RESPONSE     | Client: jonman       | 10 + 25 = 35
+[2026-04-16 22:38:45] QUIT_RECEIVED | Client: jonman       | Client requested disconnect
+[2026-04-16 22:38:45] DISCONNECTED | Client: jonman       | Duration: 5s
+[2026-04-16 22:38:45] STATUS       | Client: SERVER       | No clients currently connected
+[2026-04-16 22:39:43] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-16 22:39:57] CONNECTED    | Client: jonman       | IP: 11.37.6.232:41714
+[2026-04-16 22:39:57] STATUS       | Client: SERVER       | Active clients (1): jonman
+[2026-04-16 22:40:00] REQUEST      | Client: jonman       | Expr: 10 + 25
+[2026-04-16 22:40:00] RESPONSE     | Client: jonman       | 10 + 25 = 35
+[2026-04-16 22:40:04] REQUEST      | Client: jonman       | Expr: 100 / 4
+[2026-04-16 22:40:04] RESPONSE     | Client: jonman       | 100 / 4 = 25
+[2026-04-16 22:40:06] REQUEST      | Client: jonman       | Expr: 2 / 0
+[2026-04-16 22:40:06] ERROR        | Client: jonman       | Bad expr: 2 / 0 => ERROR:Division by zero
+[2026-04-16 22:40:06] QUIT_RECEIVED | Client: jonman       | Client requested disconnect
+[2026-04-16 22:40:06] DISCONNECTED | Client: jonman       | Duration: 9s
+[2026-04-16 22:40:06] STATUS       | Client: SERVER       | No clients currently connected
+[2026-04-16 22:43:46] SERVER_START | Client: N/A          | Listening on port 9999
+[2026-04-16 22:44:19] CONNECTED    | Client: user2        | IP: 11.37.6.232:59676
+[2026-04-16 22:44:19] STATUS       | Client: SERVER       | Active clients (1): user2
+[2026-04-16 22:44:21] CONNECTED    | Client: user1        | IP: 11.37.6.232:59682
+[2026-04-16 22:44:21] STATUS       | Client: SERVER       | Active clients (2): user1, user2
+[2026-04-16 22:44:25] REQUEST      | Client: user1        | Expr: 2 / 0
+[2026-04-16 22:44:25] ERROR        | Client: user1        | Bad expr: 2 / 0 => ERROR:Division by zero
+[2026-04-16 22:44:27] REQUEST      | Client: user1        | Expr: 7 * 8
+[2026-04-16 22:44:27] RESPONSE     | Client: user1        | 7 * 8 = 56
+[2026-04-16 22:44:28] REQUEST      | Client: user2        | Expr: 3 + 3
+[2026-04-16 22:44:28] RESPONSE     | Client: user2        | 3 + 3 = 6
+[2026-04-16 22:44:29] REQUEST      | Client: user1        | Expr: 10 + 25
+[2026-04-16 22:44:29] RESPONSE     | Client: user1        | 10 + 25 = 35
+[2026-04-16 22:44:29] QUIT_RECEIVED | Client: user1        | Client requested disconnect
+[2026-04-16 22:44:29] DISCONNECTED | Client: user1        | Duration: 8s
+[2026-04-16 22:44:29] STATUS       | Client: SERVER       | Active clients (1): user2
+[2026-04-16 22:44:30] REQUEST      | Client: user2        | Expr: 2 + 2
+[2026-04-16 22:44:30] RESPONSE     | Client: user2        | 2 + 2 = 4
+[2026-04-16 22:44:36] REQUEST      | Client: user2        | Expr: 7 / 0
+[2026-04-16 22:44:36] ERROR        | Client: user2        | Bad expr: 7 / 0 => ERROR:Division by zero
+[2026-04-16 22:44:44] QUIT_RECEIVED | Client: user2        | Client requested disconnect
+[2026-04-16 22:44:44] DISCONNECTED | Client: user2        | Duration: 25s
+[2026-04-16 22:44:44] STATUS       | Client: SERVER       | No clients currently connected

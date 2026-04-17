@@ -7,7 +7,7 @@ public class MathClient {
 
     // Set to true to run automated demo mode (no user input needed, single machine)
     // Set to false for interactive mode (user types expressions manually) across multiple devices on the same network
-    private static final boolean DEMO_MODE = true;
+    public static boolean DEMO_MODE = true;
 
     public static void main(String[] args) {
         String clientName;
@@ -30,6 +30,15 @@ public class MathClient {
                 System.out.print("Enter your name: ");
                 clientName = sc.nextLine().trim();
             }
+            
+            if (args.length > 2)
+            {
+                DEMO_MODE = Boolean.parseBoolean(args[2]);
+            } else {
+                System.out.print("Default mode or interactive mode: (true or false)");
+                DEMO_MODE = Boolean.parseBoolean(sc.nextLine().trim());
+            }
+
 
             // Establish connection to server
             Socket socket = new Socket(host, PORT);
